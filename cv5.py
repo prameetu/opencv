@@ -12,7 +12,7 @@ blur = cv.GaussianBlur(img,(9,9),cv.BORDER_DEFAULT)
 cv.imshow('Blur',blur)
 
 #Edge Cascade
-edge = cv.Canny(img,125,175)
+edge = cv.Canny(img,125,175,)
 cv.imshow('Canny Edges',edge)
 #Edges can be reduced by using the blurred images
 
